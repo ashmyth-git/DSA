@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // sort require this library
+#include <algorithm> // sort require this library to work
 using namespace std;
 
 void printArr(int *arr, int n)
