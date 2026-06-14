@@ -1,0 +1,1 @@
+even thought we visualize 2d array as a matrix but it is stored as linear in the memory and have continuous memory location (which is generally row wise)
