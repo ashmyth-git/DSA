@@ -26,7 +26,7 @@ bool search(int matrix[4][4], int n, int m, int key){
 }
 
 int main(){
-    int matrix[4][4] = {{10,20,30,40},
+    int matrix[4][4] = {{10,20,30,40}, // the matrix is sorted in this question both row wise and column wise (but not linear)
                         {15,25,35,45},
                         {27,29,37,48},
                         {32,33,39,50}};

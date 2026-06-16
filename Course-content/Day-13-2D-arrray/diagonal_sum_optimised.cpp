@@ -8,7 +8,7 @@ int diagonalSum(int matrix[4][4], int n){
     for (int i = 0; i < n; i++)
     {
         sum += matrix[i][i]; // primary diagonal
-        if (i != n-i-1)
+        if (i != n-i-1) // this condition is used to count center element twice in case of odd matrix
         {
             sum += matrix[i][n-i-1]; // secondary diagonal
         }
