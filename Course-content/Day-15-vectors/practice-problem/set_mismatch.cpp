@@ -7,7 +7,7 @@ vector<int> findErrorNums(vector<int> nums)
     vector<int> ans;
     int n = nums.size();
 
-    vector<bool> isPresent(n + 1, false);
+    vector<bool> isPresent(n + 1, false);// means make vector of n+1 size and initialize all values to false 
 
     // Find duplicate number
     for (int i = 0; i < n; i++)
