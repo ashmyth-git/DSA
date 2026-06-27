@@ -4,7 +4,7 @@ using namespace std;
 
 // 1. single inheritance - one class inheritance other one properties
 // 2. multi level inhertance- 3rd class inherit property of 2nd class and 2nd contains all the properties of first class and continue...
-// 3. multiple inheritance- derived class will inherit the properties of two base class or more
+// 3. multiple inheritance- derived class will inherit the properties of two base class or more...
 
 class Teacher{
     public:
