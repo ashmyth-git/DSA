@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// works for both positive and negative values
 int longestSubarray(vector<int> &nums, int k)
 {
     int n = nums.size();
