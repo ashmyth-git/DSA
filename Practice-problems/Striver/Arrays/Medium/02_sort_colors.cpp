@@ -20,7 +20,7 @@ void sortColors(vector<int> &nums)
         {
             mid++;
         }
-        else // nums[mid] == 2
+        else // nums[mid] ==  2
         { 
             swap(nums[mid], nums[high]);
             high--;
